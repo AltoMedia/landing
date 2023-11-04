@@ -50,6 +50,7 @@
   .mainbanner {
     width: 30rem;
     aspect-ratio: 850/261;
+    transition-duration: 0.4s;
   }
 
   .maintext {
@@ -62,6 +63,7 @@
 
   .landingText {
     font-size: 1.5rem;
+    transition-duration: 0.4s;
   }
 
   .gitlink {
@@ -76,4 +78,29 @@
 
   .gitlink:hover {
     background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  @media (max-width: 700px) and (min-width: 450px) {
+
+    .mainbanner {
+      width: 20rem;
+      transition-duration: 0.4s;
+      aspect-ratio: 850/261;
+    }
+
+  }
+
+  @media (max-width: 450px) {
+
+    .mainbanner {
+      width: 15rem;
+      transition-duration: 0.4s;
+      aspect-ratio: 850/261;
+    }
+
+    .landingText {
+      font-size: 1.5rem;
+      transition-duration: 0.4s;
+    }
+
   }
