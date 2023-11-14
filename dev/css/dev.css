@@ -1,0 +1,51 @@
+
+.articleBy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
+
+  border-radius: 26px;
+
+  background-color: rgba(0,0,0,0.1);
+
+  color: black;
+}
+
+.byUser {
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-right: 1rem;
+}
+
+.personIMG {
+  width: 3rem;
+  border-radius: 99999999px;
+}
+
+.defaultBorder {
+  border-radius: 26px;
+}
+
+.article a {
+  height: min-content;
+
+  text-decoration: none;
+}
+
+.navLink {
+  color: black;
+  text-decoration: none;
+}
